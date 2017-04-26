@@ -11,6 +11,7 @@ import {
   Text,
   View
 } from 'react-native';
+import firebase from './firebase';
 
 import Logo from './Logo';
 export default class tc extends Component {

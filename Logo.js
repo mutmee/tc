@@ -29,6 +29,7 @@ export default class Logo extends Component {
                     <Scene key="Information" component={Information} title="Information" />
                     <Scene key="Connectcode" component={Connectcode} title="Connectcode" />
                     <Scene key="Fillin" component={Fillin} title="Fillin" />
+                    <Scene key="Basicfirstaid" component={Fillin} title="Basicfirstaid" />
 					<Scene key="Code" component={Code} title="Code" />
                   </Scene>  
                 </Router>
