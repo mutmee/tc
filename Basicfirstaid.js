@@ -10,6 +10,7 @@ export default class Basicfirstaid extends Component {
   render() {
       return (
                 <View style={styles.container}>
+                  <Text onPress={Actions.FirstAid}> First Aids </Text>
                 </View>       
             );
           }

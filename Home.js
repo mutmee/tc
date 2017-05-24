@@ -14,7 +14,7 @@ export default class Home extends Component {
                 
                 <View style={styles.container}>
                   
-                  <TouchableHighlight onPress={Actions.Caretaker}>
+                  <TouchableHighlight onPress={Actions.Patient}>
                     <Image
                       style={styles.item}
                       source={require('./img/3.png')}
@@ -22,7 +22,7 @@ export default class Home extends Component {
                   </TouchableHighlight>
                   <Text>ผู้ป่วย</Text>
 
-                  <TouchableHighlight onPress={Actions.Patient}>
+                  <TouchableHighlight onPress={Actions.Caretaker}>
                     <Image
                       style={styles.item}
                       resizeMode = {Image.resizeMode.contain}

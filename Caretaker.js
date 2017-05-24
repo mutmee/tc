@@ -10,11 +10,10 @@ export default class Caretaker extends Component {
   render() {
       return (
                 <View style={styles.container}>
-					<Text onPress={Actions.Information}> Information </Text>
-					<Text onPress={Actions.FirstAid}> First Aids </Text>
-                    <Text onPress={Actions.Checkpoint}> Checkpoint </Text>
-					<Text onPress={Actions.Activity}> Activity </Text>
-          <Text onPress={Actions.Fillin}> Fillin </Text>
+					        <Text onPress={Actions.Information}> Information </Text>
+                  <Text onPress={Actions.FirstAid}> First Aids </Text>
+                  <Text onPress={Actions.Checkpoint}> Checkpoint </Text>
+					        <Text onPress={Actions.ActivityView}> Activity View </Text>
                 </View>       
             );
           }

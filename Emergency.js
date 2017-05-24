@@ -9,8 +9,7 @@ import {Actions} from 'react-native-router-flux';
 export default class Emergency extends Component {
   render() {
       return (
-                <View style={styles.container}>
-                    <Text onPress={Actions.Pay}> Activity </Text>       
+                <View style={styles.container}>       
                 </View>       
             );
           }

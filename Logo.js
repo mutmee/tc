@@ -12,8 +12,7 @@ import Checkpoint from './Checkpoint';
 import Activity from './Activity';
 import Information from './Information';
 import Code from './Code';
-import Connectcode from './Code';
-import Fillin from './Code';
+import Basicfirstaid from './Basicfirstaid';
 
 export default class Logo extends Component {
   render() {
@@ -21,16 +20,16 @@ export default class Logo extends Component {
                 <Router>
                   <Scene key="root">
                     <Scene key="Home" component={Home} title="Home" initial={true}/>
-					<Scene key="Caretaker" component={Caretaker} title="Caretaker" />
-					<Scene key="Patient" component={Patient} title="Patient" />
-					<Scene key="FirstAid" component={FirstAid} title="FirstAid" />
+					          <Scene key="Caretaker" component={Caretaker} title="Caretaker" />
+					          <Scene key="Patient" component={Patient} title="Patient" />
+					          <Scene key="FirstAid" component={FirstAid} title="FirstAid" />
                     <Scene key="Checkpoint" component={Checkpoint} title="Checkpoint" />
                     <Scene key="Activity" component={Activity} title="Activity" />
                     <Scene key="Information" component={Information} title="Information" />
                     <Scene key="Connectcode" component={Connectcode} title="Connectcode" />
                     <Scene key="Fillin" component={Fillin} title="Fillin" />
-                    <Scene key="Basicfirstaid" component={Fillin} title="Basicfirstaid" />
-					<Scene key="Code" component={Code} title="Code" />
+                    <Scene key="Basicfirstaid" component={Basicfirstaid} title="Basicfirstaid" />
+					          <Scene key="Code" component={Code} title="Code" />
                   </Scene>  
                 </Router>
             );

@@ -6,11 +6,10 @@ import {
 } from 'react-native';
 import {Actions} from 'react-native-router-flux';
 
-export default class Code extends Component {
+export default class ActivityView extends Component {
   render() {
       return (
-                <View style={styles.container}>
-                    <Text onPress={Actions.Feedback}> Click! </Text>       
+                <View style={styles.container}>       
                 </View>       
             );
           }
